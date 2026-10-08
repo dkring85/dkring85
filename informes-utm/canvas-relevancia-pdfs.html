@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Canvas relevancia PDFs UTM 3–9 ago</title>
+  <style>
+    :root { --bg:#0f1419; --card:#1a2330; --line:#2c3a4d; --txt:#e8eef6; --muted:#9aabbf; --crit:#e85d4c; --alta:#f0a202; --media:#3dbb9a; --baja:#6b7c90; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: Calibri, Segoe UI, sans-serif; background:var(--bg); color:var(--txt); padding:28px; }
+    h1 { font-size:22px; margin:0 0 6px; }
+    .sub { color:var(--muted); margin-bottom:22px; }
+    .board { display:grid; grid-template-columns: repeat(3, 1fr); gap:16px; }
+    .col { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px; min-height: 420px; }
+    .col h2 { margin:0 0 12px; font-size:15px; letter-spacing:.04em; text-transform:uppercase; }
+    .card { background:#121922; border:1px solid var(--line); border-radius:10px; padding:12px; margin-bottom:10px; }
+    .rank { font-weight:700; margin-right:6px; }
+    .tag { display:inline-block; font-size:11px; padding:2px 8px; border-radius:999px; margin-bottom:6px; }
+    .crit { color:#ffd2cc; background:#3a1b17; }
+    .alta { color:#ffe7b0; background:#3a2d0d; }
+    .media { color:#c8f3e7; background:#12332b; }
+    .baja { color:#d5dde6; background:#243040; }
+    .card p { margin:6px 0 0; color:var(--muted); font-size:13px; line-height:1.35; }
+    table { width:100%; border-collapse:collapse; margin-top:24px; font-size:14px; }
+    th, td { border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top; }
+    th { background:#121922; }
+    @media (max-width: 980px) { .board { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <h1>Canvas de relevancia — PDFs Fortinet UTM</h1>
+  <p class="sub">Semana 3–9 agosto 2026 · Criterio: aporte real a las 5 preguntas del informe + tickets</p>
+
+  <div class="board">
+    <section class="col">
+      <h2 style="color:#ffb4ab">Críticos — usar siempre</h2>
+      <article class="card">
+        <span class="tag crit">#1 · Crítico</span>
+        <div><span class="rank">1.</span> Top 20 Categorías y Aplicaciones (Bandwidth) INDIVIDUAL</div>
+        <p>Fuente de apps y categorías en GB: QUIC/SSL, Google.Services, WhatsApp, Windows Update, VPN, AnyDesk. Sin este PDF no se contestan las 2 primeras preguntas.</p>
+      </article>
+      <article class="card">
+        <span class="tag crit">#2 · Crítico</span>
+        <div><span class="rank">2.</span> Reporte Uso Dominios WEB</div>
+        <p>Usuarios top, destinos, categorías web, Most Blocked y sección de uso web. COM-TRIAGE01 (2.1M bloqueos) sale de aquí.</p>
+      </article>
+      <article class="card">
+        <span class="tag crit">#3 · Crítico</span>
+        <div><span class="rank">3.</span> Top 500 Sessions by Bandwidth</div>
+        <p>Forense: usuario + sitio + hora + GB. Amarra pornografía, radios de 24 h y transferencias Drive a equipos concretos.</p>
+      </article>
+    </section>
+
+    <section class="col">
+      <h2 style="color:#ffd27a">Apoyo fuerte</h2>
+      <article class="card">
+        <span class="tag alta">#4 · Alta</span>
+        <div><span class="rank">4.</span> Top 20 Category and Websites (Bandwidth)</div>
+        <p>Destino → empresa/dominio en GB. WhatsApp CDN, Microsoft/Adobe, radios, zcqrlzysc.com (~7 GB).</p>
+      </article>
+      <article class="card">
+        <span class="tag alta">#5 · Alta</span>
+        <div><span class="rank">5.</span> Top 20 Category and Websites (Session)</div>
+        <p>Pornography #2 por sesiones (2.1M a zcqrlzysc.com). Sirve para abuso, no tanto para consumo.</p>
+      </article>
+      <article class="card">
+        <span class="tag media">#6 · Media</span>
+        <div><span class="rank">6.</span> Hourly Website Hits</div>
+        <p>105 páginas, ruidoso. Solo aporta el “cuándo”: picos horarios de pornografía (15:00 = 44% de hits).</p>
+      </article>
+    </section>
+
+    <section class="col">
+      <h2 style="color:#b7c6d6">Menos relevantes</h2>
+      <article class="card">
+        <span class="tag media">#7 · Media-baja</span>
+        <div><span class="rank">7.</span> Reputación de Clientes INDIVIDUAL</div>
+        <p>Útil para priorizar tickets (score COM-TRIAGE01). No trae GB ni destinos. Gráficas poco legibles.</p>
+      </article>
+      <article class="card">
+        <span class="tag baja">#8 · Baja</span>
+        <div><span class="rank">8.</span> Top 20 Categories and Applications (Session)</div>
+        <p>Sesiones ≠ consumo. Infla puertos Unknown. Casi no cambia el informe de bandwidth.</p>
+      </article>
+      <article class="card">
+        <span class="tag baja">#9 · Duplicado</span>
+        <div><span class="rank">9.</span> Reporte Uso Dominios WEB INDIVIDUAL</div>
+        <p>Copia del WEB general. El extra es un filtro por deviceip. Se puede omitir la próxima semana.</p>
+      </article>
+    </section>
+  </div>
+
+  <table>
+    <tr><th>Pregunta</th><th>PDFs que más aportan</th><th>Casi no aportan</th></tr>
+    <tr><td>Apps de mayor consumo</td><td>#1 Bandwidth apps</td><td>WEB Individual, Hourly, Reputación</td></tr>
+    <tr><td>Categorías de mayor consumo</td><td>#1 + #2/#4 (vista web)</td><td>Apps Session, Reputación</td></tr>
+    <tr><td>Usuarios de mayor consumo</td><td>#2 WEB + #3 Top 500</td><td>Apps Session, Hourly</td></tr>
+    <tr><td>Destinos y qué bloquear</td><td>#4 + #2 + #3</td><td>Apps Session, Reputación</td></tr>
+    <tr><td>Sección uso web</td><td>#2 + #5 + #6</td><td>Apps Bandwidth</td></tr>
+    <tr><td>Tickets / anomalías</td><td>#3 + #2 Most Blocked + #7</td><td>WEB Individual</td></tr>
+  </table>
+</body>
+</html>
