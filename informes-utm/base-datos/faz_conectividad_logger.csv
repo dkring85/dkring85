@@ -1,0 +1,4 @@
+semana,inicio,fin,dispositivos_en_reporte,faz_connection_failed,cm_connectivity_inactive,device_shutdown,device_rebooted,interface_status_changed,admin_login_failed,critical_total,nota
+5 al 11 de octubre de 2026,2026-10-05 00:00:00,2026-10-11 23:59:59,38,156,10,29,8,866,923326,1058871,Indicador primario: FortiAnalyzer connection failed. Cruzar con sedes IMS_* del Appendix A. Revisar periódicamente (semanal) continuidad de logs por sede.
+12 al 18 de octubre de 2026,2026-10-12 00:00:00,2026-10-18 23:59:59,38,128,18,11,5,248,306043,327563,Indicador primario: FortiAnalyzer connection failed. Cruzar con sedes IMS_* del Appendix A. Revisar periódicamente (semanal) continuidad de logs por sede.
+19 al 25 de octubre de 2026,2026-10-19 00:00:00,2026-10-25 23:59:59,38,148,58,14,16,1037,847470,922098,Indicador primario: FortiAnalyzer connection failed. Cruzar con sedes IMS_* del Appendix A. Revisar periódicamente (semanal) continuidad de logs por sede.

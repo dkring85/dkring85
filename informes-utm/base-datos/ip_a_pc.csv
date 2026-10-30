@@ -1,0 +1,88 @@
+ip,hostnames,sede_estimada,dispositivo_faz,semanas_vistas,fuentes,ultimo_consumo_web,ultimo_bloqueos
+172.16.181.20,PBL-URG10,Pablo Barreto,IMS_PBAR,05-11,active;blocked,,26498
+172.16.181.46,PBL-URG16,Pablo Barreto,IMS_PBAR,12-18;19-25,active;blocked,,56385
+172.16.181.58,,,,05-11;12-18;19-25,active,,
+172.16.181.68,PBL-URG09,Pablo Barreto,IMS_PBAR,12-18;19-25,active;blocked,,54940
+172.16.181.69,PBL-URG11,Pablo Barreto,IMS_PBAR,12-18;19-25,active;blocked,,46297
+172.16.181.77,PBL-URG07,Pablo Barreto,IMS_PBAR,12-18;19-25,active;blocked;bw,7.60 GB,51433
+172.16.181.78,PBL-URG10,Pablo Barreto,IMS_PBAR,12-18;19-25,active;blocked,,85512
+172.16.191.10,COM-CYD02,Comuneros,IMS_COMU,12-18,bw,8.19 GB,
+172.16.201.13,,,,05-11,radio_top500,,
+172.16.21.13,,,,05-11,radio_top500,,
+172.16.211.16,,,,05-11;12-18;19-25,blocked,,143335
+172.16.231.10,,,,05-11,blocked,,36479
+172.16.231.14,POL-URG12,Policarpa,IMS_POLI,05-11,blocked,,41902
+172.16.231.22,,,,05-11,radio_top500,,
+172.16.231.24,POL-URG11,Policarpa,IMS_POLI,05-11;12-18;19-25,blocked,,33294
+172.16.231.55,,,,05-11;12-18;19-25,blocked,,48404
+172.16.234.44,POL-URG12,Policarpa,IMS_POLI,12-18;19-25,blocked,,40309
+172.17.121.26,,,,12-18,blocked,,43614
+172.17.21.115,,,,12-18,active,,
+172.17.21.31,COM-VACUCOVID01,Comuneros,IMS_COMU,05-11;12-18,blocked,,30874
+172.17.21.52,,,,05-11;12-18;19-25,active;blocked,,38581
+172.17.21.54,,,,05-11;12-18,active;blocked,,25993
+172.17.21.66,COM-HOSP01,Comuneros,IMS_COMU,05-11;12-18,active,,
+172.17.21.76,,,,05-11;12-18;19-25,active;blocked;bw,9.07 GB,65443
+172.17.21.79,,,,05-11,active,,
+172.17.21.84,,,,05-11;12-18;19-25,active;blocked,,51048
+172.17.21.88,,,,05-11;12-18,active;blocked,,30261
+172.17.21.94,,,,19-25,active,,
+172.17.24.5,,,,05-11,radio_top500,,
+172.17.24.7,COM-PARTOS01,Comuneros,IMS_COMU,05-11;12-18;19-25,active,,
+172.17.51.14,SEV-PYP01,Sevilla,IMS_SEVI,12-18,bw,8.83 GB,
+172.17.71.124,AGC-RAYOSX02,Agua Clara,IMS_AGCL,05-11;19-25,active,,
+172.17.71.125,AGC-CEXTERNA03,Agua Clara,IMS_AGCL,19-25,active,,
+172.17.71.25,,,,05-11;12-18;19-25,active;blocked;bw,11.02 GB,74116
+172.17.71.29,,,,05-11,active,,
+172.17.71.36,,,,12-18;19-25,active,,
+172.17.71.39,,,,05-11;19-25,active;blocked,,36391
+172.17.94.7,,,,05-11,bw,19.14 GB,
+192.168.2.232,ADM-GERENCIA10,Administración / PPAL,FortiGate-200F_IMSALUD_PPAL,05-11;12-18,active,,
+192.168.2.33,,,,05-11,bw,7.26 GB,
+192.168.2.43,,,,05-11,bw,6.39 GB,
+192.168.2.45,ADM-SUMINISP07,Administración / PPAL,FortiGate-200F_IMSALUD_PPAL,05-11;12-18;19-25,active;bw,65.05 GB,
+192.168.2.49,ADM-SUMINISP07,Administración / PPAL,FortiGate-200F_IMSALUD_PPAL,05-11;12-18;19-25,active;bw,18.58 GB,
+192.168.2.62,,,,05-11,bw,14.44 GB,
+192.168.2.77,ADM-ALMACEN18,Administración / PPAL,FortiGate-200F_IMSALUD_PPAL,19-25,bw,9.85 GB,
+192.168.2.79,ADM-SISTEMAS14,Administración / PPAL,FortiGate-200F_IMSALUD_PPAL,05-11,bw,7.28 GB,
+192.168.40.128,BAC-ARCHIVO21,Barrio/Archivo?,,05-11,bw,7.22 GB,
+192.168.40.196,BAC-ARCHIVO03,Barrio/Archivo?,,12-18,bw,8.32 GB,
+192.168.52.202,,,,05-11,bw,8.80 GB,
+192.168.52.213,,,,05-11,bw,11.75 GB,
+192.168.52.230,,,,19-25,blocked,,47413
+192.168.52.245,ADM-SUBADMIN34,Administración / PPAL,FortiGate-200F_IMSALUD_PPAL,19-25,bw,10.83 GB,
+192.168.55.77,ADM-CUENTAS12,Administración / PPAL,FortiGate-200F_IMSALUD_PPAL,05-11,bw,8.66 GB,
+192.168.55.78,,,,05-11;12-18;19-25,bw,35.85 GB,
+192.168.55.81,ADM-FACT02,Administración / PPAL,FortiGate-200F_IMSALUD_PPAL,05-11;12-18;19-25,active;bw,13.35 GB,
+192.168.55.88,ADM-FACT10,Administración / PPAL,FortiGate-200F_IMSALUD_PPAL,05-11,bw,13.69 GB,
+192.168.55.91,ADM-FACT09,Administración / PPAL,FortiGate-200F_IMSALUD_PPAL,05-11;12-18;19-25,active;bw,6.73 GB,
+192.168.55.97,ADM-FACT01,Administración / PPAL,FortiGate-200F_IMSALUD_PPAL,05-11,active,,
+,ADM-SISTEMASP01,Administración / PPAL,FortiGate-200F_IMSALUD_PPAL,19-25,bw,9.86 GB,
+,AGC-FARMACIA01,Agua Clara,IMS_AGCL,19-25,bw,9.87 GB,
+,AGC-URG03,Agua Clara,IMS_AGCL,05-11;12-18,radio_top500,,
+,BLS-CEXTERNA01,,,05-11;19-25,radio_top500,,
+,CEC-CEXTERNA05,Cúcuta / Cont.,IMS_CONT,05-11,active,,
+,CLA-ODONTO01,,,05-11;19-25,radio_top500,,
+,COM-FARMA02,Comuneros,IMS_COMU,05-11,radio_top500,,
+,COM-PYP01,Comuneros,IMS_COMU,19-25,radio_top500,,
+,LIB-FARMA01,Libertad,IMS_LLIB,19-25,radio_top500,,
+,LIB-PARTOS03,Libertad,IMS_LLIB,19-25,radio_top500,,
+,LOM-FARMA02,Los Olivos,IMS_LOLV,05-11,radio_top500,,
+,LOM-URG04,Los Olivos,IMS_LOLV,05-11,radio_top500,,
+,LOM-URG05,Los Olivos,IMS_LOLV,19-25,radio_top500,,
+,LOM-URG07,Los Olivos,IMS_LOLV,12-18,radio_top500,,
+,LOM-URG11,Los Olivos,IMS_LOLV,05-11,radio_top500,,
+,MAT-ODONTO01,Matecaña,IMS_SMTN,05-11;19-25,radio_top500,297.74 MB,
+,PBL-ADMISION02,Pablo Barreto,IMS_PBAR,12-18;19-25,bw;radio_top500,10.57 GB,
+,PBL-COORD01,Pablo Barreto,IMS_PBAR,12-18;19-25,bw;radio_top500,20.43 GB,
+,PBL-HOSP03,Pablo Barreto,IMS_PBAR,05-11,radio_top500,,
+,PBL-HOSP04,Pablo Barreto,IMS_PBAR,05-11,radio_top500,,
+,PBL-URG07,Pablo Barreto,IMS_PBAR,12-18;19-25,radio_top500,,
+,PBL-URG11,Pablo Barreto,IMS_PBAR,12-18,radio_top500,,
+,PBL-URG12,Pablo Barreto,IMS_PBAR,19-25,radio_top500,,
+,PBL-URG16,Pablo Barreto,IMS_PBAR,19-25,radio_top500,,
+,PBL-URG17,Pablo Barreto,IMS_PBAR,19-25,radio_top500,,
+,POL-HOSP04,Policarpa,IMS_POLI,12-18,radio_top500,,
+,POL-URG02,Policarpa,IMS_POLI,12-18,radio_top500,,
+,SAL-CEXTERNA06,,,19-25,radio_top500,,
+,SAL-CEXTERNA07,,,05-11;19-25,radio_top500,,
